@@ -8,49 +8,94 @@
     <title>my-Webpage</title>
 </head>
 <style>
-    body {
+
+.container {
         background-image: url(joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
         background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        
+        
     }
 
     .my-webpage {
-        margin: 250px;
-        padding-left: 35em;
+
+        text-align: center;
+        
+
     }
 
+    @media (min-width: 40em) {
+      
+
+    
     .Link1 {
         padding: 10px;
         background-color: darkgreen;
         font-size: medium;
+    
     }
 
     .Link2 {
         padding: 10px;
         background-color: darkgreen;
         font-size: medium;
+        
     }
 
+    .text {
+        padding: 10px;
+        color: aliceblue;
+        font-size: medium;
+        text-align: center;
+       
+        
+    }
 
-
+    
     a {
         color: white;
     }
+
+   
+
+    }
+
+    
+   
 </style>
 
 <body>
-    <div class="my-Webpage">
+    <div class="container">
 
-        <a class="link1" href="basic.html">basic_webpage</a>
+        <div class="text">
+            
+            <h1>Welcome to Tendani's Landing page</h1>
+
+        </div>
 
 
+        <div class="my-Webpage">
 
-        <a class="Link2" href="grid.html">simple_grid</a>
+            <a class="link1" href="basic.html">basic_webpage</a>
+
+            <a class="Link2" href="grid.html">simple_grid</a>
+
+        </div>
 
     </div>
-
-
-
-
 
 
 </body>
