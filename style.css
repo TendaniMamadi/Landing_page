@@ -1,8 +1,9 @@
 body {
     background-color: #F2F3F4;
     font-family: 'Times New Roman', Times, serif;
-    font-size: small;
-   
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -10,7 +11,6 @@ body {
     padding: 3em;
     margin: -2em;
     background-color: #f8f9f9;
-  
 
 }
 
@@ -20,9 +20,6 @@ body {
     padding-left: 100px;
 }
 
-th {
-    text-align: center;
-}
 
 td {
     padding: 10;
@@ -32,29 +29,27 @@ table,
 th,
 td {
     border: 1px solid #000;
-
-}
-
-td {
-
     text-align: center;
-    font-size: small;
+    font-size: 1rem;
+
 }
+
+
 
 table {
 
     width: 100%;
     border-collapse: collapse;
-   
+
 
 
 }
 
 .language {
 
-    justify-content: center;
-    font-size: small;
-    
+
+    font-size: 1rem;
+
 
 }
 
@@ -70,16 +65,14 @@ table {
 
 h2 {
 
-    margin-top: 5%;
-    margin-bottom: 3%;
+
     font-style: oblique;
 }
 
 .Interests {
 
-    padding-top: 5px;
-    font-size: small;
-    
+    font-size: 1rem;
+
 }
 
 
@@ -91,7 +84,9 @@ h2 {
 
 }
 
-.p1,.p2,.p3 {
+.p1,
+.p2,
+.p3 {
     flex: 1;
 }
 
@@ -103,13 +98,11 @@ h2 {
 
     .destination {
         display: flex;
-        margin-right: 2em;
-        justify-content: right;
+
     }
 
 
     .destination p {
-        padding-top: 2%;
         margin-left: .8%;
 
 
@@ -117,14 +110,13 @@ h2 {
 
     .greek {
 
-        max-width: 100%;
         margin: 0;
     }
 
 
     .me img {
         width: 100%;
-        align-content: center;
+
 
     }
 
@@ -132,7 +124,7 @@ h2 {
         display: flex;
         width: 55%;
         font-style: oblique;
-        
+
 
     }
 
@@ -142,68 +134,47 @@ h2 {
     }
 
     .Interests img {
-        float:left;
-        margin-right: 2em;
+        float: left;
+        margin-right: .6em;
+        height: 70%;
     }
 
 
 
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
 
-   
+    .CT_text {
+        display: flex;
+        height: 25%;
+
+
+    }
+
     .BK_text {
         display: flex;
         flex-direction: row-reverse;
-        /* width: 276px; */
         height: 25%;
-        /* object-fit: cover; */
+
 
     }
 
     .D6_text {
         display: flex;
-        /* width: 276px; */
         height: 25%;
-        object-fit: cover;
-    }
+        
 
-    .CT_text {
-        display: flex;
-        /* width: 276px; */
-        height: 25%;
-        object-fit: cover;
 
     }
 
-    /* .Interests img {
-        float:left
-    } */
-
-
-
+    
     .greek {
 
         margin: 0;
     }
 
-    .me img {
-        margin: 0;
-
-    }
 
 
-
-}
-
-@media (min-width: 600px) {
-    .me {
-        display: flex;
-        text-align: center;
-        width: 55%;
-        font-style: oblique;
-
-    }
 
 }
